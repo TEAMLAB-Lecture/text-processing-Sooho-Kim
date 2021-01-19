@@ -37,9 +37,11 @@ def normalize(input_string):
     normalized_string = ''
     str_list = list(input_string.split())
     for i in range(len(str_list)):
-        normalized_string += str_list[i].lower()
-        normalized_string += " "
-    normalized_string.rstrip()
+        if i != len(str_list)-1:
+            normalized_string += str_list[i].lower()
+            normalized_string += " "
+        else:
+            normalized_string += str_list[i].lower()
     return normalized_string
 
 
