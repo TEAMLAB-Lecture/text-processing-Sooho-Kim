@@ -64,7 +64,7 @@ def no_vowels(input_string):
             >>> tp.normalize(input_string2)
             ''W lv Pythn!'
     """
-    no_vowel_string = None
+    no_vowel_string = ''
     banned_alpha = ["a", "e", "i", "o", "u"]
     for i in input_string:
         if i in banned_alpha:
