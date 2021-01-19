@@ -5,6 +5,7 @@ import random
 import text_processing as tp
 
 
+
 class TestTextProcessing(unittest.TestCase):
     def test_normalize(self):
         test_str = "This is an example."
