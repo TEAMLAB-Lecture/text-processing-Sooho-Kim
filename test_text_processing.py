@@ -3,7 +3,10 @@
 import unittest
 import random
 import text_processing as tp
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7dfb602b695503d451e75fdf1f54e1ef3ff4f344
 
 
 class TestTextProcessing(unittest.TestCase):
