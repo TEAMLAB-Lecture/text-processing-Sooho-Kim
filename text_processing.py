@@ -34,7 +34,7 @@ def normalize(input_string):
              'extra space'
     """
     
-    normalized_string = None
+    normalized_string = ''
     str_list = list(input_string.split())
     for i in range(len(str_list)):
         normalized_string += str_list[i].lower()
